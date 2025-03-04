@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to bottom right,#3696f5, #9545fb);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+.form-container{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 9px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 20px;
+}
+.Login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-container input {
+        width: 200px; 
+        padding: 15px; 
+        height: 25px;
+        margin-top: 50px;
+        margin-bottom: 10px; 
+        border: none; 
+        border-bottom: 3px solid gray;
+        border-radius: 5px; 
+}
+.submit button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom right,#3696f5, #9545fb);
+    width: 230px;
+    padding: 15px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit button:hover{
+    background-color: gray;
+    transform: scale(1.05)
+}
+.Forpass{
+    font-size: medium;
+    color: gray;
+}
+.Donthave{
+    font-size: medium;
+    color: gray;
+}
